@@ -1,6 +1,6 @@
 
 const express=require('express');
-const authorization = require('../middleware/authorization');
+const authorization  = require('../Middleware/authorization');
 const Post= require('../Operations/Todos')
 const route=express.Router();
 route.get('/', async (req,res)=>{
