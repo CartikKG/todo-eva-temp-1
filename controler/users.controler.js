@@ -1,6 +1,6 @@
 const express=require('express');
 const Users= require('../Operations/Users.js')
-const authorization  = require('../middleware/authorization');
+const authorization  = require('../Middleware/authorization');
 const route=express.Router();
 route.get('/', async (req,res)=>{
    
